@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Services = () => {
   return (
     <section className="text-gray-600 body-font">

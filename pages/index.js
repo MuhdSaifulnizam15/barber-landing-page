@@ -1,15 +1,14 @@
-import Head from "next/head";
-import Image from "next/image";
+import Head from 'next/head';
 
-import Footer from "../components/Footer";
-import FAQ from "../components/FAQ";
-import ContactUs from "../components/ContactUs";
-import Testimonials from "../components/Testimonials";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import Gallery from "../components/Gallery";
-import Services from "../components/Services";
-import Pricing from "../components/Pricing";
+import Footer from '../components/Footer';
+import FAQ from '../components/FAQ';
+import ContactUs from '../components/ContactUs';
+import Testimonials from '../components/Testimonials';
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import Gallery from '../components/Gallery';
+import Services from '../components/Services';
+import Pricing from '../components/Pricing';
 
 export default function Home() {
   return (

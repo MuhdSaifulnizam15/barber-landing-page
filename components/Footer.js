@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { BsFacebook, BsInstagram, BsWhatsapp } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsWhatsapp } from 'react-icons/bs';
 
 const Footer = () => {
   return (
