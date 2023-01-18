@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import logo from '../public/assets/logo.png';
 
@@ -6,7 +7,7 @@ const Header = () => {
   return (
     <header className="text-gray-600 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <Link href="" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <Image 
             className="object-cover object-center rounded"
             alt="Rolex Barbershop Logo"
@@ -15,7 +16,7 @@ const Header = () => {
             height={40}
           />
           <span className="ml-3 text-xl">Rolex Barbershop</span>
-        </a>
+        </Link>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           <a className="mr-5 hover:text-gray-900 mb-2" href="#services">Services</a>
           <a className="mr-5 hover:text-gray-900 mb-2" href="#gallery">Gallery</a>

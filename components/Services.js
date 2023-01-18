@@ -1,6 +1,6 @@
 import { BsScissors } from 'react-icons/bs';
-import { GiComb, GiRazor } from "react-icons/gi";
-import { TbMassage } from "react-icons/tb";
+import { GiComb, GiRazor } from 'react-icons/gi';
+import { TbMassage } from 'react-icons/tb';
 
 const Services = () => {
   return (
@@ -22,10 +22,11 @@ const Services = () => {
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
-                  Men's Haircut
+                  Men&apos;s Haircut
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Full style and cuts to suit your face shape, professionally styled.
+                  Full style and cuts to suit your face shape, professionally
+                  styled.
                 </p>
               </div>
             </div>
@@ -40,7 +41,8 @@ const Services = () => {
                   Beard Trim
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Keep your beard in great shape with a bit of extra attention with clippers.
+                  Keep your beard in great shape with a bit of extra attention
+                  with clippers.
                 </p>
               </div>
             </div>
@@ -48,14 +50,15 @@ const Services = () => {
           <div className="p-4 lg:w-1/2 md:w-full">
             <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
               <div className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                <GiComb size='2em' />
+                <GiComb size="2em" />
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
                   Styling adn Treatment
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Get full treatment by our professional stylist to keep your hair healty.
+                  Get full treatment by our professional stylist to keep your
+                  hair healty.
                 </p>
               </div>
             </div>
@@ -63,14 +66,15 @@ const Services = () => {
           <div className="p-4 lg:w-1/2 md:w-full">
             <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
               <div className="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
-                <TbMassage size='2em' />
+                <TbMassage size="2em" />
               </div>
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg title-font font-medium mb-3">
                   Wash and Massage
                 </h2>
                 <p className="leading-relaxed text-base">
-                  Nourish your head and scalp with a full wash using our exclusive product. 
+                  Nourish your head and scalp with a full wash using our
+                  exclusive product.
                 </p>
               </div>
             </div>

@@ -1,11 +1,11 @@
 import Image from 'next/image';
 
-import image1 from '../public/assets/image1.jpg'
-import image2 from '../public/assets/image2.jpg'
-import image3 from '../public/assets/image3.jpg'
-import image4 from '../public/assets/image4.jpg'
-import image5 from '../public/assets/image5.jpg'
-import image6 from '../public/assets/image6.jpg'
+import image1 from '../public/assets/image1.jpg';
+import image2 from '../public/assets/image2.jpg';
+import image3 from '../public/assets/image3.jpg';
+import image4 from '../public/assets/image4.jpg';
+import image5 from '../public/assets/image5.jpg';
+import image6 from '../public/assets/image6.jpg';
 
 const Gallery = () => {
   return (

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import image7 from '../public/assets/image7.jpg'
+import image7 from '../public/assets/image7.jpg';
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
             Neighbourhood Barbershop
           </h1>
           <p className="mb-8 leading-relaxed">
-            BUSINESS HOUR <br/>
+            BUSINESS HOUR <br />
             11 AM – 10 PM <br />
             FRIDAYS 3 PM – 10 PM <br />
             OPEN EVERYDAY
