@@ -8,77 +8,65 @@ const FAQ = () => {
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             The most common questions about how our business works and what can
-            do htmlFor you.
+            do for you.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           <div className="w-full lg:w-1/2 px-4 py-2">
             <details className="mb-4">
               <summary className="font-semibold  bg-gray-200 rounded-md py-2 px-4 mb-2">
-                How Long is this site live?
+                Do we offer styling advice?
               </summary>
 
               <span>
-                Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore
-                ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit
-                nostrud pariatur culpa magna in aute.
+                Yes we offer styling advice and we have an array of product lines to accommodate all races.
               </span>
             </details>
             <details className="mb-4">
               <summary className="font-semibold bg-gray-200 rounded-md py-2 px-4 mb-2">
-                Can I install/upload anything I want on there?
+                Can we do a haircut for you if you bring a picture of another one in that you would like your hair to look like?
               </summary>
 
               <span>
-                Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore
-                ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit
-                nostrud pariatur culpa magna in aute.
+                Yes we are great at mimicking pictures of haircuts bring a picture, or your smartphone with a picture on it and we will do our best to match you up.
               </span>
             </details>
             <details className="mb-4">
               <summary className="font-semibold  bg-gray-200 rounded-md py-2 px-4 mb-2">
-                How can I migrate to another site?
+                Do we service children?
               </summary>
 
               <span>
-                Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore
-                ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit
-                nostrud pariatur culpa magna in aute.
+                Absolutely, as young as you want to bring them as long as they are willing!
               </span>
             </details>
           </div>
           <div className="w-full lg:w-1/2 px-4 py-2">
             <details className="mb-4">
               <summary className="font-semibold  bg-gray-200 rounded-md py-2 px-4 mb-2">
-                Can I change the domain you give me?
+                Can we fade?
               </summary>
 
               <span>
-                Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore
-                ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit
-                nostrud pariatur culpa magna in aute.
+                Yes we can and very well, all types of fades from high and tights to blowouts!
               </span>
             </details>
             <details className="mb-4">
               <summary className="font-semibold  bg-gray-200 rounded-md py-2 px-4 mb-2">
-                How many sites I can create at once?
+                Can I book an appointment to the barber of my choice?
               </summary>
 
               <span>
-                Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore
-                ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit
-                nostrud pariatur culpa magna in aute.
+                Of course you can. You can book easily online or by calling the barber shop. You can find the shop details here.
               </span>
             </details>
             <details className="mb-4">
               <summary className="font-semibold  bg-gray-200 rounded-md py-2 px-4 mb-2">
-                How can I communicate with you?
+                Do I need to book an appointment in advance or can I just walk-in?
               </summary>
 
               <span>
-                Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore
-                ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit
-                nostrud pariatur culpa magna in aute.
+                You are always welcome to just walk-in to check if we have free times but we recommend booking in advance especially after 3pm when we are usually pretty busy. Especially if you want to have a longer service we recommend to book an appointment so that you can come when it suits you best. So welcome to pop by any time!
               </span>
             </details>
           </div>
