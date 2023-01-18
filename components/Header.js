@@ -1,27 +1,26 @@
+import Image from 'next/image';
+
+import logo from '../public/assets/logo.png';
+
 const Header = () => {
   return (
     <header className="text-gray-600 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-          </svg>
-          <span className="ml-3 text-xl">Tailblocks</span>
+        <a href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+          <Image 
+            className="object-cover object-center rounded"
+            alt="Rolex Barbershop Logo"
+            src={logo}
+            width={40}
+            height={40}
+          />
+          <span className="ml-3 text-xl">Rolex Barbershop</span>
         </a>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 hover:text-gray-900 mb-2">First Link</a>
-          <a className="mr-5 hover:text-gray-900 mb-2">Second Link</a>
-          <a className="mr-5 hover:text-gray-900 mb-2">Third Link</a>
-          <a className="mr-5 hover:text-gray-900 mb-2">Fourth Link</a>
+          <a className="mr-5 hover:text-gray-900 mb-2" href="#services">Services</a>
+          <a className="mr-5 hover:text-gray-900 mb-2" href="#gallery">Gallery</a>
+          <a className="mr-5 hover:text-gray-900 mb-2" href="#priceList">Price List</a>
+          <a className="mr-5 hover:text-gray-900 mb-2" href="#testimonial">Testimonials</a>
         </nav>
       </div>
     </header>
