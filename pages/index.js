@@ -16,6 +16,7 @@ export default function Home() {
       <Head>
         <title>Rolex Barbershop</title>
         <meta name="description" content="Rolex Barbershop" />
+        <meta name="facebook-domain-verification" content="j24uxgtkcp7h2kcwx6us8xf5qkc0f7" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
