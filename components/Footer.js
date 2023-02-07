@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="px-5 py-2">
             <a
               href="#"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base dark:text-white leading-6 text-gray-500 hover:text-slate-400"
             >
               About
             </a>
@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="px-5 py-2">
             <a
               href="#"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base dark:text-white leading-6 text-gray-500 hover:text-slate-400"
             >
               Services
             </a>
@@ -24,22 +24,22 @@ const Footer = () => {
           <div className="px-5 py-2">
             <a
               href="#"
-              className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              className="text-base dark:text-white leading-6 text-gray-500 hover:text-slate-400"
             >
               Contact Us
             </a>
           </div>
         </nav>
         <div className="flex justify-center mt-8 space-x-6">
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="#" className="text-gray-400 dark:text-white hover:text-slate-400">
             <span className="sr-only">Facebook</span>
             <BsFacebook size="1.5em" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="#" className="text-gray-400 dark:text-white hover:text-slate-400">
             <span className="sr-only">Instagram</span>
             <BsInstagram size="1.5em" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-gray-500">
+          <a href="#" className="text-gray-400 dark:text-white hover:text-slate-400">
             <span className="sr-only">WhatsApp</span>
             <BsWhatsapp size="1.5em" />
           </a>

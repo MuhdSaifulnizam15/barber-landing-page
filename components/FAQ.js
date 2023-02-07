@@ -3,10 +3,10 @@ const FAQ = () => {
     <section className="text-gray-700 my-4">
       <div className="container px-5 py-5 mx-auto">
         <div className="text-center mb-4">
-          <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
+          <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4 dark:text-white">
             Frequently Asked Question
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto dark:text-slate-400">
             The most common questions about how our business works and what can
             do for you.
           </p>
@@ -18,7 +18,7 @@ const FAQ = () => {
                 Do we offer styling advice?
               </summary>
 
-              <span>
+              <span className="dark:text-white">
                 Yes we offer styling advice and we have an array of product lines to accommodate all races.
               </span>
             </details>
@@ -27,7 +27,7 @@ const FAQ = () => {
                 Can we do a haircut for you if you bring a picture of another one in that you would like your hair to look like?
               </summary>
 
-              <span>
+              <span className="dark:text-white">
                 Yes we are great at mimicking pictures of haircuts bring a picture, or your smartphone with a picture on it and we will do our best to match you up.
               </span>
             </details>
@@ -36,7 +36,7 @@ const FAQ = () => {
                 Do we service children?
               </summary>
 
-              <span>
+              <span className="dark:text-white">
                 Absolutely, as young as you want to bring them as long as they are willing!
               </span>
             </details>
@@ -47,7 +47,7 @@ const FAQ = () => {
                 Can we fade?
               </summary>
 
-              <span>
+              <span className="dark:text-white">
                 Yes we can and very well, all types of fades from high and tights to blowouts!
               </span>
             </details>
@@ -56,7 +56,7 @@ const FAQ = () => {
                 Can I book an appointment to the barber of my choice?
               </summary>
 
-              <span>
+              <span className="dark:text-white">
                 Of course you can. You can book easily online or by calling the barber shop. You can find the shop details here.
               </span>
             </details>
@@ -65,7 +65,7 @@ const FAQ = () => {
                 Do I need to book an appointment in advance or can I just walk-in?
               </summary>
 
-              <span>
+              <span className="dark:text-white">
                 You are always welcome to just walk-in to check if we have free times but we recommend booking in advance especially after 3pm when we are usually pretty busy. Especially if you want to have a longer service we recommend to book an appointment so that you can come when it suits you best. So welcome to pop by any time!
               </span>
             </details>
